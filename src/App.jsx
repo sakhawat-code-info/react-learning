@@ -5,6 +5,8 @@ import './App.css'
 import Todo from './Todo'
 import Actor from './Actor'
 import Student from './Student';
+import Counter from './Counter'
+import Users from './Users'
 
 function App() {
 
@@ -19,14 +21,38 @@ function App() {
   // ]
 
 
+
+  // const handeClick = () => {
+  //   alert('btn clicked');
+  // }
+
+  // const functionParameter = (num) => {
+  //   alert(num + 5);
+  // }
+
+
+
+
+
+
   return (
     <>
 
-      <h1>Vite + React</h1>
+      <h1>React</h1>
+
+      <Users></Users>
 
 
 
 
+      {/* <Counter></Counter> */}
+
+
+
+      {/* <button onClick={handeClick}>Click Me</button>
+      <button onClick={() => { alert('internal funtion called') }}>internal function</button>
+
+      <button onClick={() => functionParameter(3)}>Function parameter</button> */}
 
 
 
